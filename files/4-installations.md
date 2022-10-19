@@ -22,36 +22,36 @@ Before you install Docker Engine - Community for the first time on a new host ma
 
 1. Install required packages
 
-    ```sh
-    sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+    ```console
+    $ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
     ```
 2. Set up the stable repository
 
-    ```sh
-    yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    ```console
+    $ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
     ```
 
 ## INSTALL DOCKER ENGINE - COMMUNITY
 
 1. Install the latest version of Docker Engine - Community and containerd
 
-    ```sh
-    yum install docker-ce docker-ce-cli containerd.io
+    ```console
+    $ yum install docker-ce docker-ce-cli containerd.io
     ```
 
 2. Start Docker
-    ```sh
-    systemctl start docker
+    ```console
+    $ systemctl start docker
     ```
 
 3. Verify that Docker Engine - Community is installed correctly by running the hello-world image.
-    ```sh
-    docker run hello-world
+    ```console
+    $ docker run hello-world
     ```
 
 ## Install using the convenience script
 
-```sh
+```console
 $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
 ```

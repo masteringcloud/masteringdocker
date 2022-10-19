@@ -29,21 +29,25 @@ docker images --digests
 
 Creating a contaniners 
 
-``` 
-# see all the sub-commands and options
-docker run --help
 
+# see all the sub-commands and options
+```console
+$ docker run --help
+```
 # Rining a container 
-docker run -itd nginx
+```console
+$ docker run -itd nginx
 
     - i --Inteactive 
     - t --terminal 
     - d -- detached mode 
-
+```
 # List the created container 
-docker ps 
-
+```console
+$ docker ps 
+```
 # list running , exited, stopped containers
-docker ps -a 
 
+```console
+$ docker ps -a 
 ```

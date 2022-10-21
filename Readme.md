@@ -11,3 +11,5 @@
 9. [Docker Images](files/9-dockerimages.md)
 10. [Docker Networking](files/10-dockernetworking.md)
 11. [Creating NodeJS Image](files/9-a-build-nodeapp.md)
+12. [Docker Swarm](files/12-dockerswarm.md)
+13. [working with Swarm](files/13-workingwithswarm.md)
